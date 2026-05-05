@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saksham Art Gallery</title>
+  <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">🎨 Saksham Art Gallery</div>
+
+  <ul class="nav-links">
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="wishlist.html">Wishlist</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Account">Account</a></li>
+  </ul>
+</nav>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h1>Explore Our Collection</h1>
+
+  <div class="gallery">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5">
+      <h3>Fluorite - Oil Painting</h3>
+      <p class="price">$79.99</p>
+      <button onclick="toggleDetails(this)">View Details</button>
+      <div class="details"><p>Abstract eye concept art</p></div>
+      <button onclick="addToWishlist(this)">Add to Wishlist</button>
+      <button onclick="buyArt(this)">Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+      <h3>Abstract Nature Art</h3>
+      <p class="price">$19.99</p>
+      <button onclick="toggleDetails(this)">View Details</button>
+      <div class="details"><p>Nature inspired art</p></div>
+      <button onclick="addToWishlist(this)">Add to Wishlist</button>
+      <button onclick="buyArt(this)">Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+      <h3>Mona Lisa</h3>
+      <p class="price">$11179.99</p>
+      <button onclick="toggleDetails(this)">View Details</button>
+      <div class="details"><p>Classic artwork</p></div>
+      <button onclick="addToWishlist(this)">Add to Wishlist</button>
+      <button onclick="buyArt(this)">Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Email: <b>saksham@email.com</b></p>
+  <p>Phone: <b>+91 9876543210</b></p>
+</section>
+
+<!-- ACCOUNT -->
+<section id="Account" class="contact-section">
+  <h2>My Account</h2>
+  <p><strong>Name:</strong> Saksham</p>
+  <p><strong>Mobile:</strong> +91 9876543210</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-content">
+    <div>
+      <h3>About</h3>
+      <p>Modern platform to explore and buy artwork.</p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="#gallery">Gallery</a></p>
+      <p><a href="wishlist.html">Wishlist</a></p>
+    </div>
+
+    <div>
+      <h3>Legal</h3>
+      <p><a href="#">Privacy Policy</a></p>
+      <p><a href="#">Terms & Conditions</a></p>
+    </div>
+  </div>
+
+  <p class="copyright">
+    © 2026 Saksham Art Gallery | Benchmark Project
+  </p>
+
+</footer>
+
+<script src="project1.js"></script>
+</body>
+</html>
